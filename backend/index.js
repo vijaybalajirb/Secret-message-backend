@@ -107,5 +107,8 @@ router.delete('/delete-message', async (req, res) => {
     }
 })
 
+router.get("/",(req,res) => {
+res.send("HomePage")
+})
 
 router.listen(port, () => console.log("::: Server is UP and running successfully :::"))

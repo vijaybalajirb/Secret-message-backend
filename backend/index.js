@@ -34,8 +34,8 @@ const mailData = {
 
 const mailMessage = (url) => {
     return (
-        `<p>Hi this is Raavan from gaming World,<br />
-            you have a SECRET MESSAGE waiting for only you to open. <br />
+        `
+            You have a SECRET MESSAGE waiting for only you to open. <br />
             <a href='${url}' target='_blank'>${url}</a><br />
             Don't Tell It Top Anyone...
          </p>`
